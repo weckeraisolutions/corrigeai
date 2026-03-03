@@ -1,0 +1,5 @@
+{
+  "name": "CorrigeAI",
+  "description": "CorrigeAI is an institutional solution for grammatical and spelling correction of Word documents (.docx), aimed at structured educational content, fully preserving the formatting, pedagogical hierarchy, textual identity, and evaluation criteria of the documents.",
+  "requestFramePermissions": []
+}
