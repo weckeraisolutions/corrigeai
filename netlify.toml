@@ -2,14 +2,15 @@
   command = "npm run build"
   publish = "dist"
 
-# Redireciona chamadas da API do frontend para as Netlify Functions
+[functions]
+  node_bundler = "esbuild"
+
 [[redirects]]
   from = "/api/*"
   to = "/.netlify/functions/:splat"
   status = 200
   force = true
 
-# Fallback para o React Router (SPA)
 [[redirects]]
   from = "/*"
   to = "/index.html"
