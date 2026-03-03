@@ -36,7 +36,7 @@ export const handler = async (event, context) => {
         }
 
         const response = await ai.models.generateContent({
-            model: model || 'gemini-2.5-pro',
+            model: model || 'gemini-3.1-flash-lite-preview',
             contents: contents,
             config: config
         });
